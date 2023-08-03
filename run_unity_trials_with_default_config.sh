@@ -1,0 +1,7 @@
+#!/bin/sh
+
+mlagents-learn /home/florentin/projects/unity/builds/config_default.yaml --env=/home/florentin/projects/unity/builds/AirCollectorPlus_Seed_Env_16/bin/AirCollector.x86_64 --force --no-graphics --time-scale=8 --num-envs=8 --seed=0 --run-id=Air00_default_config_agents_16_workers_8_seed_0
+mlagents-learn /home/florentin/projects/unity/builds/config_default.yaml --env=/home/florentin/projects/unity/builds/AirCollectorPlus_Seed_Env_16/bin/AirCollector.x86_64 --force --no-graphics --time-scale=8 --num-envs=8 --seed=1 --run-id=Air01_default_config_agents_16_workers_8_seed_1
+mlagents-learn /home/florentin/projects/unity/builds/config_default.yaml --env=/home/florentin/projects/unity/builds/AirCollectorPlus_Seed_Env_16/bin/AirCollector.x86_64 --force --no-graphics --time-scale=8 --num-envs=8 --seed=2 --run-id=Air02_default_config_agents_16_workers_8_seed_2
+mlagents-learn /home/florentin/projects/unity/builds/config_default.yaml --env=/home/florentin/projects/unity/builds/AirCollectorPlus_Seed_Env_16/bin/AirCollector.x86_64 --force --no-graphics --time-scale=8 --num-envs=8 --seed=3 --run-id=Air03_default_config_agents_16_workers_8_seed_3
+mlagents-learn /home/florentin/projects/unity/builds/config_default.yaml --env=/home/florentin/projects/unity/builds/AirCollectorPlus_Seed_Env_16/bin/AirCollector.x86_64 --force --no-graphics --time-scale=8 --num-envs=8 --seed=4 --run-id=Air04_default_config_agents_16_workers_8_seed_4
